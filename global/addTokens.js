@@ -36,9 +36,9 @@
                             "X-Blooket-Build": e.blooketBuild
                         },
                         body: await encodeValues({
-                            name: x.name,
-                            addedTokens: 500,
-                            addedXp: 300
+                            name: Trii932
+                            addedTokens: 1000
+                            addedXp: 500
                         }, e.secret)
                     });
                     fetch("https://api.blooket.com/api/users/add-rewards", {
